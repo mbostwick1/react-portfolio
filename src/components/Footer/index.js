@@ -4,9 +4,10 @@ import "./style.css";
 function Footer() {
   return (
     <div>
-
-    </div>  
-    );
+      {/* <!-- FOOTER  --> */}
+      <footer className="footer">© Copyright</footer>
+    </div>
+  );
 }
 
 export default Footer;

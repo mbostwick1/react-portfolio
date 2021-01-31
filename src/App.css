@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* Background pattern */
+    background-image: url("../images/panda.jpg");
+    background-repeat: repeat;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+
+.row {
+  position: relative;
+}
+
+
