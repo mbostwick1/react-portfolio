@@ -7,15 +7,11 @@
 
 .row {
   position: relative;
-}
-
-* Pages styling */
-
-.row {
-  /* Positioning */
   margin: auto;
   padding: 30px;
 }
+
+/* * Pages styling */ 
 
 
 
