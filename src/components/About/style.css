@@ -1,49 +1,40 @@
-
 #about-me-image {
-  /* position: relative; */
-  /* about me image */
-  margin-top: 20px;
+  margin-top: 5px;
   width: 350px;
   height: 350px;
   align-items: center;
 }
 
-.about-me-text {
-  /* about me text */
-  font-family: "Maven Pro", sans-serif;
-  /* font-weight: bold; */
-  font-size: 17px;
-  padding-bottom: 150px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin: auto;
-  text-align: center;
-}
 
-.about-me-content {
-  text-align: center;
-  margin: auto;
-  padding-bottom: 150px;
-}
-
-h2 {
+h1 {
   font-family: "Maven Pro", sans-serif;
   font-weight: Semi-bold;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 20px;
   padding-bottom: 5px;
 }
 
-.about-me-para {
-  padding-top: 30px;
+
+p {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: Semi-bold;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
-/* Portfolio Images */
+#linkedin, #github {
+  font-family: "Maven Pro", sans-serif;
+  color: white;
+  margin-bottom: 60px;
+  background-color: #e28c53;
+  border: 0 none;
+  border-radius: 0;
+  text-align: center;
 
-.port-images {
-  width: 350px;
-  height: 350px;
-  margin: 30px;
 }
 
-h4 {
-  margin-top:20px;
+#linkedin:hover, #github:hover  {
+  background-color: #ca6d2f;
 }

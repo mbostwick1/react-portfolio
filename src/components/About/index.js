@@ -4,21 +4,18 @@ import "./style.css";
 function About() {
   return (
     // <!-- ABOUT ME  -->
-    <div className="row">
-      <div className="col-md-2"></div>
-      <aside className="col-md-8">
-        <div className="article-container">
-          <article className="about-me-content">
-            <figure className="about-me-text">
+    <section class="section">
+    <div class="container has-text-centered">
+    <div class="columns is-centered is-multiline">
+    <div class='column is-8' id="column">
+                  <h1>Hello, nice to meet you!</h1>
               <img
                 src="../images/photo.jpg"
                 className="figure-img img-fluid rounded"
                 id="about-me-image"
                 alt="photo of melanie bostwick"
               />
-              <div className="about-me-para">
-                <h2>Hello! My name is Melanie, nice to meet you!</h2>
-                <p>
+                <p id="about-me">
                   I am a Senior Designer and Developer. I started off
                   my design education in Atlanta while attending Georgia State
                   University. After graduation I made a big leap and moved to
@@ -30,15 +27,14 @@ function About() {
                   Tech. I am very enthusiastic about this new journey of merging
                   my design and development skills.
                 </p>
-                <a href="https://www.linkedin.com/in/melaniesamazing/">LinkedIn</a>
-            <a href="https://github.com/mbostwick1">GitHub</a>
-              </div>
-            </figure>
-          </article>
-          <div className="col-md-2"></div>
-        </div>
-      </aside>
-    </div> 
+                <div class="buttons are-medium is-centered">
+                <a class="button" id="linkedin" href="https://www.linkedin.com/in/melaniesamazing/" target="_blank" >LinkedIn</a>
+                <a class="button" id="github" href="https://github.com/mbostwick1" target="_blank">GitHub</a>
+                </div>
+            </div>
+            </div>
+          </div> 
+        </section>
     );
 }
 

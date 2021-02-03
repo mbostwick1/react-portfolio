@@ -1,0 +1,13 @@
+#card {
+    margin: 20px;
+}
+
+#portfolioHeadline {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  #portBtn, #headline {
+    font-family: "Maven Pro", sans-serif;
+  }

@@ -61,17 +61,13 @@ function Navbar() {
             </li>
 
             <li className="nav-item" id="nav-item">
-              <Link
-                to="/Resume"
-                className={
-                  window.location.pathname ===
-                  "../files/MelanieBostwick_Resume.pdf"
-                    ? "nav-link active"
-                    : "nav-link"
-                }
+              <a
+                className="nav-link"
+                href="../files/MelanieBostwick_Resume.pdf"
+                download="MelanieBostwick_Resume"
               >
                 Resume
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

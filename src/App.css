@@ -3,85 +3,24 @@
 .container {
   margin-bottom: 40px;
 }
-
-
-.row {
-  position: relative;
-  margin: auto;
-  padding: 30px;
-}
-
 /* * Pages styling */ 
-
-
 
 .article-container {
   position: absolute;
 }
 
-
-
 h1 {
   /* typography */
   font-family: Maven-Bold, "serif";
-  font-size: 60px;
   font-style: bold;
   text-align: center;
   color: #3b3b3b;
-  padding-top: 0px;
-  padding-bottom: 30px;
-}
-
-#about-me-image {
-  /* position: relative; */
-  /* about me image */
-  margin-top: 20px;
-  width: 350px;
-  height: 350px;
-  align-items: center;
-}
-
-.about-me-text {
-  /* about me text */
-  font-family: Maven-Bold, "serif";
-  font-size: 17px;
-  padding-bottom: 150px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin: auto;
-  text-align: center;
-}
-
-.about-me-content {
-  text-align: center;
-  margin: auto;
-  padding-bottom: 150px;
 }
 
 h2 {
   font-family: Maven-Bold, "serif";
   padding-bottom: 5px;
 }
-
-.about-me-para {
-  padding-top: 30px;
-}
-
-/* Portfolio Images */
-
-.port-images {
-  width: 350px;
-  height: 350px;
-  margin: 30px;
-}
-
-h4 {
-  margin-top:20px;
-}
-
-
-
-
 
 @media only screen and (max-width: 768px) {
 
