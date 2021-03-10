@@ -4,10 +4,10 @@ import "./style.css";
 function About() {
   return (
     // <!-- ABOUT ME  -->
-    <section class="section">
-    <div class="container has-text-centered">
-    <div class="columns is-centered is-multiline">
-    <div class='column is-8' id="column">
+    <section className="section">
+    <div className="container has-text-centered">
+    <div className="columns is-centered is-multiline">
+    <div className='column is-8' id="column">
                   <h1>Hello, nice to meet you!</h1>
               <img
                 src="../images/photo.jpg"
@@ -27,9 +27,9 @@ function About() {
                   Tech. I am very enthusiastic about this new journey of merging
                   my design and development skills.
                 </p>
-                <div class="buttons are-medium is-centered">
-                <a class="button" id="linkedin" href="https://www.linkedin.com/in/melaniesamazing/" target="_blank" >LinkedIn</a>
-                <a class="button" id="github" href="https://github.com/mbostwick1" target="_blank">GitHub</a>
+                <div className="buttons are-medium is-centered">
+                <a className="button" id="linkedin" href="https://www.linkedin.com/in/melaniesamazing/" target="_blank" >LinkedIn</a>
+                <a className="button" id="github" href="https://github.com/mbostwick1" target="_blank">GitHub</a>
                 </div>
             </div>
             </div>

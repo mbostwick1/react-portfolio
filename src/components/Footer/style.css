@@ -1,10 +1,8 @@
-/* FOOTER */
-
-.footer {
-  padding: 20px 0;
+#main-footer {
+  padding: 0px;
   background-color: #3b3b3b;
   border-top: 5px solid #e28c53;
-  color: #8b8b8a;
+  color: white;
   position: fixed;
   margin-top: auto;
   left: 0;
@@ -12,5 +10,5 @@
   clear: both;
   width: 100%;
   text-align: center;
-  line-height: 1em;
+  line-height: .5em;
 }

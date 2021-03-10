@@ -1,14 +1,15 @@
 import React from "react";
 import Card from "../components/Card/index";
 import Info from "../components/projects.json";
+import "./style.css";
 
 function Portfolio() {
   return (
     <div>
-      <section class="section">
-        <div class="container has-text-centered">
+      <section className="section" id="section">
+        <div className="container has-text-centered">
           <h1 id="portfolioHeadline">Check out some projects!</h1>
-          <div class="columns is-centered is-multiline">
+          <div className="columns is-centered is-multiline">
             {Info.map((data) => {
               return (
                 <Card
