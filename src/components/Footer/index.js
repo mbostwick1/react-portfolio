@@ -4,7 +4,7 @@ import "./style.css";
 
 const Footer = () => (
   <footer className="footer" id="main-footer">
-    <p>Copyright © Melanie Bostwick 2021. All Rights Reserved</p>
+    <p className="text" id="footer-text">Copyright © Melanie Bostwick 2021. All Rights Reserved.</p>
   </footer>
 );
 
