@@ -1,13 +1,17 @@
 #card {
-    margin: 20px;
+  margin: 20px;
+  display: relative;
+  flex-direction: column;
+  height: 100%;
 }
 
 #portfolioHeadline {
-    font-size: 50px;
-    margin-bottom: 50px;
-    margin-top: -20px;
-  }
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+}
 
-  #portBtn, #headline {
-    font-family: "Maven Pro", sans-serif;
-  }
+#portBtn,
+#headline {
+  font-family: "Maven Pro", sans-serif;
+}
